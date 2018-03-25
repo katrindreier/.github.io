@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Inconsolata');
+
+* {
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+
+	 Header {														/*hier sind alle Styles für den Header festgelegt*/
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	/* position: fixed;*/
+	 background-color: white;
+	 height: 20%;
+	 }
+	 
+			 .Headline_Name {
+			 	font-family: 'Inconsolata', monospace;
+			 	font-Size: 1em;
+			 	text-align: center;
+			 }
+			 
+			 img[alt=Logo_Katrin] {
+			 	width: 30%;
+			 	display: block;
+			 	margin-left: auto;
+	  			margin-right: auto;
+			 }
+			 
+		
+	
+	
+		  
+	/*****Main** CV */
+		img[alt=Portrait] {
+				width: 100%;
+				margin-bottom: 3em;
+			 }
+		img[alt=Button] {
+				width: 20%;
+				margin-left: 40%;
+				
+			 }
+		.textCV1 {
+		text-align: center;
+		font-size: 2em;
+		margin-bottom: 2em;
+		}
+		.textCV {
+		text-align: center;
+		margin-bottom: 5em;
+		}
+		
+	
+	
+	
+		  
+	Footer {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+	background-color: white;
+	clear: left;
+	
+	}	
+	
+
+		  
+	
+			 
+		img[alt=Logo_HFU] {
+				width: 6rem;
+			 	float: right;
+			 	padding: 2%;
+			 }
+		
+	
+	
+/* Responsive */		
+		@media screen and (min-width: 48em) {
+		
+			.Headline_Name {
+			 	font-Size: 2em;	
+			 }
+		
+			.Navigation {
+			margin-left: 25%;
+	  		
+			 }
+			 
+			  img[alt=Logo_Katrin] {
+			 	width: 20%;
+			 
+			 }
+			 
+			 Main {
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+			}	
+			
+			.MyWork img {
+			width: 45%;
+			}
+	
+		}
+		@media screen and (min-width: 64em) {
+			
+			.Headline_Name {
+			 	font-Size: 3em;	
+			 }
+		
+			.Navigation {
+			margin-left: 35%;
+	  		
+			 }
+			 
+			  img[alt=Logo_Katrin] {
+			 	width: 10%;
+			 
+			 }
+
+		}
+		@media screen and (min-width: 100em) {
+			.Navigation {
+			margin-left: 40%;
+	  		
+			 }
+	
+		}
+			 
+		  
+	
